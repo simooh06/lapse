@@ -4,7 +4,7 @@ const client = new Discord.Client(
  } )
 
 
-client.login ("OTQ4NjgyNjU4Nzk0MzM2MzI2.Yh_Xkw.wxEbzDKh2H1X2XDN2ZwIiCSEKFI")
+client.login (process.env.token)
 
 client.once('ready', () => {
     console.log('Lapse on')
